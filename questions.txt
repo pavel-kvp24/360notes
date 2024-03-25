@@ -1,0 +1,322 @@
+﻿SQL (PostgreSQL, H2)
+
+
+1. How would you optimize a PostgreSQL query that involves multiple JOIN operations?
+2. Can you explain the differences between H2 and PostgreSQL in terms of performance and features?
+3. What are the transaction isolation levels in SQL and how do they differ between PostgreSQL and H2?
+
+
+Cassandra
+
+
+1. How does Cassandra handle write-heavy workloads and what is the concept of eventual consistency in Cassandra?
+2. Can you describe the primary key design considerations when modeling data in Cassandra?
+3. What is the difference between a Column Family in Cassandra and a table in a relational database?
+
+
+Slick
+
+
+1. How does Slick in Scala facilitate functional relational mapping?
+2. Can you explain the benefits of using Slick for database operations over plain SQL?
+3. How does Slick handle asynchronous database queries?
+
+
+Hibernate
+
+
+1. What is the N+1 selects problem in Hibernate and how can it be addressed?
+2. How does Hibernate's caching mechanism improve application performance?
+3. Can you explain the difference between get() and load() methods in Hibernate?
+
+
+Spring Data
+
+
+1. How does Spring Data simplify data access within the Spring application context?
+2. What is the purpose of the @Repository annotation in Spring Data?
+3. How would you implement custom query methods in Spring Data repositories?
+
+
+Others (Elasticsearch, MongoDB)
+
+
+1. How does Elasticsearch perform full-text search and what is an inverted index?
+2. What are the advantages of using MongoDB's aggregation pipeline?
+3. Can you compare the performance and use cases for Elasticsearch vs MongoDB?
+
+
+Java Core (OOP, JVM)
+
+
+1. Can you explain the concept of polymorphism in Java and provide an example?
+2. How does the JVM manage memory and what roles do the stack and heap play?
+3. What are the key differences between a JDK and a JRE?
+
+
+Java Collections
+
+
+1. What are the differences between Set, List, and Map in Java Collections?
+2. How does the HashMap work internally in Java?
+3. Can you explain the importance of the Comparable and Comparator interfaces in Java?
+
+
+Java Advanced (Java 8, Concurrency, Java memory model, Garbage collectors, New java syntax (17+))
+
+
+1. How has the introduction of lambda expressions in Java 8 changed the way you write Java code?
+2. Can you describe the changes made to the garbage collection process in Java 17?
+3. What are the major differences between synchronized blocks/methods and the Lock interface in Java concurrency?
+
+
+Scala Core (Control Structures, Case Classes, Traits, Pattern Matching, Tuples)
+
+
+1. How do case classes in Scala simplify pattern matching?
+2. Can you give an example of using traits to compose behavior in Scala?
+3. What are the benefits of using tuples in Scala, and can you provide a use case?
+
+
+Scala Collections
+
+
+1. What are the differences between mutable and immutable collections in Scala?
+2. How does Scala's for-comprehension work with collections?
+3. Can you explain the concept of view in Scala collections and its use cases?
+
+
+Scala Advanced (Implicits, Variances, Concurrency, Functional Programming)
+
+
+1. How do implicit values and parameters work in Scala?
+2. Can you explain the concept of variance in Scala and its significance in type hierarchy?
+3. What are the benefits of using functional programming paradigms in Scala?
+
+
+English
+
+
+1. How do you maintain clarity and conciseness in technical writing?
+2. Can you describe the importance of active voice in technical documentation?
+3. What strategies do you use to ensure your technical documentation is understandable to non-native English speakers?
+
+
+Other
+
+
+(As this is a generic category, no specific questions can be formulated without further context.)
+
+
+Kanban
+
+
+1. How does Kanban manage workflow and what are the key components of a Kanban board?
+2. Can you describe how to measure efficiency in a Kanban system?
+3. What strategies would you use to optimize a Kanban process?
+
+
+Scrum
+
+
+1. What are the roles in a Scrum team and what are their responsibilities?
+2. How does Scrum manage change during a sprint?
+3. Can you explain the purpose of a burndown chart in Scrum?
+
+
+Feedback
+
+
+1. What are the key elements of effective feedback in a software development environment?
+2. How do you integrate feedback into the development cycle to improve product quality?
+3. What are some techniques for delivering constructive criticism without demotivating team members?
+
+
+SDLC (Software Development Life Cycle)
+
+
+1. Can you list and briefly explain the phases of the SDLC?
+2. How do Agile principles affect the traditional SDLC?
+3. What are the key differences between Waterfall and Iterative development models?
+
+
+STLC (Software Testing Life Cycle)
+
+
+1. What are the stages of the STLC and what happens in each stage?
+2. How do you determine the exit criteria for a testing phase?
+3. Can you explain the role of test automation in the STLC?
+
+
+Docker
+
+
+1. How do Docker containers differ from virtual machines?
+2. Can you describe the process of creating a Dockerfile?
+3. What are the benefits of using Docker in continuous integration/continuous deployment (CI/CD) pipelines?
+
+
+Kubernetes
+
+
+1. How does Kubernetes orchestrate containerized applications?
+2. Can you explain the concept of a Pod in Kubernetes?
+3. What are the advantages of using a Kubernetes service over direct pod-to-pod communication?
+
+
+Kubectl
+
+
+1. How do you use kubectl to manage resources in a Kubernetes cluster?
+2. Can you list some common kubectl commands and their purposes?
+3. What is the process of rolling out an update to a deployment using kubectl?
+
+
+GitLab CI/CD
+
+
+1. How does GitLab CI/CD facilitate automation in the development process?
+2. Can you describe the structure of a .gitlab-ci.yml file?
+3. What are the best practices for managing stages and jobs in GitLab CI/CD pipelines?
+
+
+ELK Stack
+
+
+1. How does the ELK Stack (Elasticsearch, Logstash, Kibana) work together to provide log analysis?
+2. Can you describe how to set up an ELK Stack for centralized logging?
+3. What are some common use cases for the ELK Stack?
+
+
+Prometheus
+
+
+1. How does Prometheus monitor the performance of applications and infrastructure?
+2. Can you explain the role of alerting rules in Prometheus?
+3. What is the PromQL and how is it used to query data in Prometheus?
+
+
+Grafana
+
+
+1. How do you create and customize dashboards in Grafana?
+2. Can you explain how Grafana integrates with data sources like Prometheus?
+3. What are some best practices for visualizing time-series data in Grafana?
+
+
+Jaeger
+
+
+1. How does Jaeger assist with distributed tracing in microservice architectures?
+2. Can you describe the process of instrumenting an application to work with Jaeger?
+3. What are the benefits of using Jaeger for performance tuning?
+
+
+Tracing (OpenTelemetry, Kamon)
+
+
+1. How does OpenTelemetry standardize observability for applications?
+2. Can you compare the features of OpenTelemetry and Kamon for tracing?
+3. What are the challenges of implementing distributed tracing in a polyglot environment?
+
+
+Terraform
+
+
+1. How does Terraform enable infrastructure as code (IaC)?
+2. Can you describe the lifecycle of a Terraform project?
+3. What are the best practices for managing state files in Terraform?
+
+
+Design Principles (SOLID, DRY, KISS, YAGNI, BDUF, APO)
+
+
+1. Can you provide an example of how to apply the SOLID principles in object-oriented design
+
+
+
+
+Sure, here are three questions for each of the listed technologies:
+
+
+Tracing (OpenTelemetry, Kamon)
+
+
+1. Как OpenTelemetry взаимодействует с различными языками программирования для реализации распределенного трассирования?
+2. Какие преимущества предоставляет Kamon для мониторинга приложений на Scala?
+3. Как можно интегрировать данные трассировки с системами логирования?
+
+
+Terraform
+
+
+1. Какие основные команды Terraform используются для управления инфраструктурой как кодом?
+2. Чем отличаются модули от ресурсов в Terraform?
+3. Как Terraform обеспечивает идемпотентность?
+
+
+Design Principles (SOLID, DRY, KISS, YAGNI, BDUF, APO)
+
+
+1. Можете ли вы объяснить принцип открытости/закрытости из SOLID?
+2. Как принцип DRY применяется при рефакторинге кода?
+3. В чем заключается принцип KISS, и как он влияет на процесс разработки?
+
+
+Design Patterns (GoF, Concurrency, Architectural)
+
+
+1. Какие шаблоны проектирования GoF наиболее часто используются, и для решения каких задач они предназначены?
+2. Какой паттерн проектирования помогает управлять доступом к разделяемому ресурсу в многопоточной среде?
+3. Какие архитектурные паттерны проектирования вы бы использовали для микросервисной архитектуры?
+
+
+Algorithms
+
+
+1. Какова основная идея алгоритма быстрой сортировки?
+2. Как работает алгоритм поиска в ширину на графе?
+3. В чем разница между алгоритмами сортировки слиянием и пузырьковой сортировки с точки зрения производительности?
+
+
+Clean Code & Refactoring
+
+
+1. Какие характеристики отличают "чистый код" от неструктурированного?
+2. Как правильно подходить к рефакторингу унаследованного кода?
+3. Какие практики рефакторинга помогают улучшить читаемость и поддержку кода?
+
+
+Unit & Integration Testing
+
+
+1. В чем основные различия между модульным тестированием и интеграционным тестированием?
+2. Какие инструменты вы бы использовали для мокирования зависимостей в модульных тестах на Java?
+3. Как можно автоматизировать интеграционные тесты в микросервисной архитектуре?
+
+
+Git
+
+
+1. Каковы основные этапы решения конфликтов при слиянии в Git?
+2. Какие стратегии ветвления вы бы рекомендовали для крупномасштабного проекта?
+3. Как Git хранит информацию об изменениях в репозитории?
+
+
+Java multithreading
+
+
+1. Как в Java создать и управлять потоками исполнения?
+2. Какие механизмы синхронизации предусмотрены в Java для управления доступом к разделяемым ресурсам?
+3. Какие изменения в модели многопоточности были внедрены в Java 8?
+
+
+Cryptography
+
+
+1. Какие существуют типы криптографических алгоритмов и когда их стоит использовать?
+2. Что такое хеш-функция и как она используется для обеспечения безопасности данных?
+3. Как работает асимметричное шифрование и в каких случаях его применение является предпочтительным?
+
+
+(Продолжение следует для остальных тем)
